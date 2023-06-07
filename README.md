@@ -1,2 +1,5 @@
-# sign-in-form-validation-ts
-Simple Sign in form using Typescript for validation.
+# Sign in Form validated in TS!
+
+Hi, this is a Sign In form validated with Typescript and styled with css.
+
+

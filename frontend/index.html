@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sign in Form Validation</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+  <div class="container">
+    <form action="" id="form" class="form">
+      <h2>Sign In</h2>
+      <div class="form-fields">
+        <label for="username">User name</label>
+        <input type="text" name="username" class="username" id="username" placeholder="Seu usuário" autocomplete="off">
+        <span class="error-message">Invalid field!</span>
+      </div>
+      <div class="form-fields">
+        <label for="email">Email:</label>
+        <input type="email" name="email" class="email" id="email" placeholder="Seu e-mail" autocomplete="off">
+        <span class="error-message">Invalid field!</span>
+      </div>
+      <div class="form-fields">
+        <label for="username">Password</label>
+        <input type="password" name="password" class="password" id="password" placeholder="Sua senha">
+        <span class="error-message">Invalid field!</span>
+      </div>
+      <div class="form-fields">
+        <label for="username">Confirm Password</label>
+        <input type="password" name="password2" class="password2" id="password2" placeholder="Repetir senha">
+        <span class="error-message">Invalid field!</span>
+      </div>
+      <div class="form-fields">
+        <button type="submit">Send</button>
+      </div>
+    </form>
+  </div>
+
+  <script src="assets/js/bundle.js"></script>
+</body>
+
+</html>
